@@ -6,7 +6,7 @@
         {
             "label": "R",
             "type": "shell",
-            "command": "nodemon --exec Rscript ${relativeFile}",
+            "command": "nodemon --exec Rscript assignments/${fileBasename}",
             "problemMatcher": []
         }
     ]
